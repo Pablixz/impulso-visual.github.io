@@ -14,7 +14,35 @@
 </head>
 
 <body>
-    <div id="nav"></div>
+
+    <!-- barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="images/imp-visual-icon.png" width="75" height="75">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- links -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/contactanos.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/register.html">Registrate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true" href="">Ayuda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <br>
 
     <div class="container my-5">
@@ -50,13 +78,13 @@
         <!-- Imágenes -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/images/carrusel-home/home1.jpg" class="d-block w-100" alt="Slide 1">
+                <img src="images/carrusel-home/home1.jpg" class="d-block w-100" alt="Slide 1">
             </div>
             <div class="carousel-item">
-                <img src="/images/carrusel-home/home2.jpg" class="d-block w-100" alt="Slide 2">
+                <img src="images/carrusel-home/home2.jpg" class="d-block w-100" alt="Slide 2">
             </div>
             <div class="carousel-item">
-                <img src="/images/carrusel-home/home3.jpg" class="d-block w-100" alt="Slide 3">
+                <img src="images/carrusel-home/home3.jpg" class="d-block w-100" alt="Slide 3">
             </div>
         </div>
 
@@ -73,7 +101,25 @@
         </button>
     </div>
 
-    <div id="footer"></div>
+    <!-- pie de pagina -->
+<footer class="bg-dark text-white py-4 position-relative">
+    <div class="container text-center">
+        <p class="mb-1">Contáctanos:</p>
+        <div class="mb-2 ">
+            <a href="mailto:impulso.visual4d@gmail.com" class="text-white text-decoration-none me-3" title="Correo">
+                <i class="bi bi-envelope-fill "> </i>Correo
+            </a>
+            <a href="https://www.instagram.com//" class="text-white text-decoration-none me-3" title="Instagram"
+                target="_blank">
+                <i class="bi bi-instagram"></i> Instagram
+            </a>
+            <a href="https://wa.me/+569" class="text-white text-decoration-none" title="WhatsApp" target="_blank">
+                <i class="bi bi-whatsapp"></i> WhatsApp
+            </a>
+        </div>
+        <p class="mb-0">&copy; 2025 Impulso Visual. Todos los derechos reservados.</p>
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
